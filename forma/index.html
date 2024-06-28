@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="page">
+        <form action="" method="POST" class="form">
+            <section class="form__field-container">
+                <label class="form__field">
+                    <span class="form__label">Имя:</span>
+                    <input 
+                        type="text"
+                        class="form__field-input"
+                        id="name-input"
+                        required
+                    />
+                    <span class="form-error" id="name-error"></span>
+                </label>
+            </section>
+            <section class="form__field-container">
+                <label class="form__field">
+                    <span class="form__label">Фамилия:</span>
+                    <input 
+                        type="text"
+                        class="form__field-input"
+                        id="surname"
+                        required
+                    />
+                    <span class="form-error" id="surname-error"></span>
+                </label>
+            </section>
+            <section class="form__field-container">
+                <label class="form__field">
+                    <span class="form__label">Отчество:</span>
+                    <input 
+                        type="text"
+                        class="form__field-input"
+                        id="surname2-input"
+                        required
+                    />
+                    <span class="form-error" id="surname2-error"></span>
+                </label>
+            </section>
+            <section class="form__field-container">
+                <label class="form__field">
+                    <span class="form__label">Телефон:</span>
+                    <input 
+                        type="tel"
+                        class="form__field-input"
+                        id="phone-input"
+                        required
+                    />
+                    <span class="form-error" id="phone-error"></span>
+                </label>
+            </section>
+            <section class="form__field-container">
+                <label class="form__field">
+                    <span class="form__label">Дата:</span>
+                    <input 
+                        type="datetime-local"
+                        class="form__field-input"
+                        id="date-input"
+                        required
+                    />
+                    <span class="form-error" id="date-error"></span>
+                </label>
+            </section>
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
